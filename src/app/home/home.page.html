@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      CRUD IONIC 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Crud ionic</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <ion-button (click)="getAllTasks()">getAllTasks</ion-button>
+    <ion-button (click)="getTask()">getTask()</ion-button>
+        <ion-button (click)="createTask()">createTask()</ion-button>
+        <ion-button (click)="updateTask()">updateTask()</ion-button>
+        <ion-button (click)="deleteTask()">deleteTask()</ion-button>
+
+
+  </div>
+</ion-content>
